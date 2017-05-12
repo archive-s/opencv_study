@@ -30,7 +30,7 @@ int main()
   
         cvNamedWindow("Camera Video",1); //新建一个窗口  
         int i = 0;  
-        while(i <= 1000) // 让它循环200次自动停止录取  
+        while(i <= 1000) // 让它循环1000次自动停止录取  
         {  
             frame=cvQueryFrame(capture); //从CvCapture中获得一帧  
             if(!frame)   
