@@ -23,3 +23,5 @@
 3、图像边缘检测 cvCanny
 
 
+# draw_box_on_screen
+在屏幕上画矩形框
